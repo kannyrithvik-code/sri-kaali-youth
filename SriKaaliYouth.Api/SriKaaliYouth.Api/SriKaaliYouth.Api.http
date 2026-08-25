@@ -1,0 +1,6 @@
+@SriKaaliYouth.Api_HostAddress = http://localhost:5012
+
+GET {{SriKaaliYouth.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+# Frontend
+node_modules/
+dist/
+.env
+.env.local
+
+# ASP.NET Core Backend
+bin/
+obj/
+.vs/
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+SriKaaliYouth.Api/SriKaaliYouth.Api/appsettings.json
