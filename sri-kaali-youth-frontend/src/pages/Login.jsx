@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { SunMedium, Lock, User, AlertCircle, Clock, XCircle, ShieldAlert } from 'lucide-react';
+import { Lock, User, AlertCircle, Clock, XCircle, ShieldAlert } from 'lucide-react';
 import api from '../api/axios';
 import { useAuth } from '../context/AuthContext';
 
@@ -124,7 +124,16 @@ export const Login = () => {
               marginBottom: '16px',
             }}
           >
-            <SunMedium size={36} />
+            <img
+  src="/images/durga-matha.png"
+  alt="SRI KAALI YOUTH Logo"
+  style={{
+    width: '90px',
+    height: '90px',
+    objectFit: 'contain',
+    borderRadius: '50%'
+  }}
+/>
           </div>
           <h2 style={{ fontSize: '22px', fontWeight: 800, color: 'var(--slate-900)' }}>
             SRI KAALI YOUTH
